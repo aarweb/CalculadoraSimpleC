@@ -1,0 +1,15 @@
+D:\Personal\CalculadoraSimpleC\bin\Debug\net6.0\CalculadoraSimpleC.exe
+D:\Personal\CalculadoraSimpleC\bin\Debug\net6.0\CalculadoraSimpleC.deps.json
+D:\Personal\CalculadoraSimpleC\bin\Debug\net6.0\CalculadoraSimpleC.runtimeconfig.json
+D:\Personal\CalculadoraSimpleC\bin\Debug\net6.0\CalculadoraSimpleC.dll
+D:\Personal\CalculadoraSimpleC\bin\Debug\net6.0\CalculadoraSimpleC.pdb
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\CalculadoraSimpleC.csproj.AssemblyReference.cache
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\CalculadoraSimpleC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\CalculadoraSimpleC.AssemblyInfoInputs.cache
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\CalculadoraSimpleC.AssemblyInfo.cs
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\CalculadoraSimpleC.csproj.CoreCompileInputs.cache
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\CalculadoraSimpleC.dll
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\refint\CalculadoraSimpleC.dll
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\CalculadoraSimpleC.pdb
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\CalculadoraSimpleC.genruntimeconfig.cache
+D:\Personal\CalculadoraSimpleC\obj\Debug\net6.0\ref\CalculadoraSimpleC.dll
