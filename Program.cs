@@ -8,6 +8,7 @@
             bool conversionNumeroCorrecta = false;
             do
             {
+                Estilos.EtiquetaUsuario();
                 conversionNumeroCorrecta = double.TryParse(Console.ReadLine() ?? "0", out numero);
                 if (!conversionNumeroCorrecta)
                     Estilos.Error("Debes introducir un valor de tipo numerico");
@@ -18,28 +19,25 @@
         }
 
 
-        
+
         public static void Division()
         {
-            double primerNumero = 0, segundoNumero = 0, resultado = 0;
+            double primerNumero = 0, segundoNumero = 0, resultado = 0, resto = 0;
             Console.WriteLine("Escribe el primer numero:");
-            Estilos.EtiquetaUsuario();
             primerNumero = SolicitarNumero();
             Console.WriteLine("Escribe el segundo numero");
-            Estilos.EtiquetaUsuario();
             segundoNumero = SolicitarNumero();
             resultado = primerNumero / segundoNumero;
-            string textoResultado = $"{primerNumero} / {segundoNumero} = {resultado:N2}";
+            resto = primerNumero % segundoNumero;
+            string textoResultado = $"{primerNumero} / {segundoNumero} = {resultado:N2} Resto: {resto}";
             Estilos.MostrarSolucion(textoResultado);
         }
         public static void Multiplicacion()
         {
             double primerNumero = 0, segundoNumero = 0, resultado = 0;
             Console.WriteLine("Escribe el primer numero:");
-            Estilos.EtiquetaUsuario();
             primerNumero = SolicitarNumero();
             Console.WriteLine("Escribe el segundo numero");
-            Estilos.EtiquetaUsuario();
             segundoNumero = SolicitarNumero();
             resultado = primerNumero * segundoNumero;
             string textoResultado = $"{primerNumero} * {segundoNumero} = {resultado:N2}";
@@ -49,10 +47,8 @@
         {
             double primerNumero = 0, segundoNumero = 0, resultado = 0;
             Console.WriteLine("Escribe el primer numero:");
-            Estilos.EtiquetaUsuario();
             primerNumero = SolicitarNumero();
             Console.WriteLine("Escribe el segundo numero");
-            Estilos.EtiquetaUsuario();
             segundoNumero = SolicitarNumero();
             resultado = primerNumero - segundoNumero;
             string textoResultado = $"{primerNumero} - {segundoNumero} = {resultado:N2}";
@@ -62,10 +58,8 @@
         {
             double primerNumero = 0, segundoNumero = 0, resultado = 0;
             Console.WriteLine("Escribe el primer numero:");
-            Estilos.EtiquetaUsuario();
             primerNumero = SolicitarNumero();
             Console.WriteLine("Escribe el segundo numero");
-            Estilos.EtiquetaUsuario();
             segundoNumero = SolicitarNumero();
             resultado = primerNumero + segundoNumero;
             string textoResultado = $"{primerNumero} + {segundoNumero} = {resultado:N2}";
